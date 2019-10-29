@@ -26,6 +26,9 @@
 # If not running interactively, don't do anything
 [[ "$-" != *i* ]] && return
 
+PATH=$PATH:'/cygdrive/c/Program Files/Oracle/VirtualBox'
+
+
 # Shell Options
 #
 # See man bash for more options...
